@@ -1,0 +1,459 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.p2{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.span1{
+    font-family: Work Sans;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.button1{
+    height: 60px;
+    padding: 0px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    background: var(--call-to-action, #A259FF);
+}
+
+.span2{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.h1{
+    font-family: Work Sans;
+    font-size: 67px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+
+.p3{
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+
+.button2{
+    height: 60px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    background: var(--call-to-action, #A259FF);
+}
+
+.span3{
+    font-family: Space Mono;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.p6{
+    font-family: Work Sans;
+    font-size: 23.99px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+
+.h2{
+    font-family: Work Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+
+.p7{
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+}  
+
+.div3{
+    margin-left: 8%;
+    margin-top: 7%;
+}
+
+.h3{
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.div4{
+    margin-top: 3%;
+    margin-left: 26%;
+    gap: 60%;
+}
+
+.button3{
+    border-radius: 20px;
+    border: 2px solid var(--call-to-action, #A259FF);
+    background: none;
+    height: 60px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.div5{
+    margin-top: 9%;
+}
+
+.div7{
+    width: 205px;
+    height: 205px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    background: #3B3B3B; 
+    margin-bottom: 30px;
+}
+
+.div8{
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background: var(--background, #2B2B2B);
+}
+
+.p8{
+    font-family: Space Mono;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    color: var(--caption-label-text, #858584);
+    text-align: center;
+    align-items: center;
+}
+
+.h6{
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80%;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.p9{
+    font-family: Work Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    color: var(--caption-label-text, #858584);
+}
+
+.p10{
+    font-family: Space Mono;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    color: var(--text, #FFF);
+}
+
+.h7{
+    font-family: Work Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: capitalize;
+    margin-left: 23%;
+    margin-top: 7%;
+    margin-bottom: 4%;
+}
+
+.div9{
+    border-radius: 20px;
+    background: #3B3B3B;
+    margin-bottom: 25px;
+}
+
+.p11{
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.div10{
+    border-radius: 20px;
+    background: #3B3B3B;
+}
+
+.p12{
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; 
+    text-transform: capitalize;
+}
+
+.span4{
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+}
+
+.p13{
+    font-family: Space Mono;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 110%; 
+    color: rgba(133, 133, 132, 1);
+}
+
+.p14{
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.h8{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+
+.button4{
+    border-radius: 20px;
+    background: var(--text, #FFF);
+    border: #FFF;
+}
+
+.span5{
+    color: var(--background, #2B2B2B);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.div13{
+    border-radius: 20px;
+    background: rgba(59, 59, 59, 0.50);
+    backdrop-filter: blur(5px);
+    height: 150px;
+    width: 295px;
+    padding: 30px;
+    gap: 10px;
+}
+
+.p15{
+    font-family: Space Mono;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+.p16{
+    font-family: Space Mono;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+
+.p17{
+    font-family: Space Mono;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+.p18{
+    font-family: Space Mono;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.div14{
+    height: 470px;
+    width: 330px;
+    padding: 10px 30px 30px 30px;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    background: var(--background-secondary, #3B3B3B);
+}
+
+.h9{
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.p19{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.container3{
+    border-radius: 20px;
+    background: #3B3B3B;
+    width: 1050px;
+    height: 430px;
+    padding: 60px;
+}
+
+.h10{
+    font-family: Work Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+
+.p20{
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; 
+    text-transform: capitalize;
+}
+
+.button5{
+    position: relative;
+    border-radius: 20px;
+    background: var(--text, #FFF);
+    width: 425px;
+    height: 60px;
+    border: none;
+}
+
+.p21{
+    color: var(--background, #2B2B2B);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-left: -50%;
+}
+
+.button6{
+    position: absolute;
+    width: 221px;
+    height: 60px;
+    border-radius: 20px;
+    background: var(--call-to-action, #A259FF);
+    gap: 12px;
+    border: none;
+    margin-left: -11%;
+}
+
+.img1{
+    width: 20px;
+    height: 20px;
+}
+
+.p22{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.p23{
+    color: #CCC;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-left: 9%;
+}
+
+.hr1{
+    width: 1150px;
+    height: 1px;
+    color: #858584;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+.p24{
+    color: #CCC;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    margin-left: 20%;
+    margin-top: 1%;
+}
